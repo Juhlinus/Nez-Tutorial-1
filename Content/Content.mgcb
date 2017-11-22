@@ -1,0 +1,55 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:Nez.dll
+/reference:Nez.PipelineImporter.dll
+/reference:Newtonsoft.Json.dll
+/reference:Ionic.ZLib.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin nez/effects/transitions/Wind.mgfxo
+/copy:nez/effects/transitions/Wind.mgfxo
+
+#begin nez/effects/transitions/Squares.mgfxo
+/copy:nez/effects/transitions/Squares.mgfxo
+
+#begin nez/effects/transitions/TextureWipe.mgfxo
+/copy:nez/effects/transitions/TextureWipe.mgfxo
+
+#begin nez/textures/textureWipeTransition/angular.xnb
+/copy:nez/textures/textureWipeTransition/angular.xnb
+
+#begin nez/textures/textureWipeTransition/crissCross.xnb
+/copy:nez/textures/textureWipeTransition/crissCross.xnb
+
+#begin nez/textures/textureWipeTransition/diagonalDistort.xnb
+/copy:nez/textures/textureWipeTransition/diagonalDistort.xnb
+
+#begin nez/textures/textureWipeTransition/horizontal.xnb
+/copy:nez/textures/textureWipeTransition/horizontal.xnb
+
+#begin nez/textures/textureWipeTransition/noise.xnb
+/copy:nez/textures/textureWipeTransition/noise.xnb
+
+#begin nez/textures/textureWipeTransition/pokemon.xnb
+/copy:nez/textures/textureWipeTransition/pokemon.xnb
+
+#begin nez/textures/textureWipeTransition/sawTooth.xnb
+/copy:nez/textures/textureWipeTransition/sawTooth.xnb
+
+#begin nez/textures/textureWipeTransition/spiral.xnb
+/copy:nez/textures/textureWipeTransition/spiral.xnb
+
+#begin nez/textures/textureWipeTransition/wink.xnb
+/copy:nez/textures/textureWipeTransition/wink.xnb
+
