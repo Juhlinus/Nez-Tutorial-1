@@ -1,6 +1,4 @@
 ﻿using Nez;
-using Microsoft.Xna.Framework;
-using Nez.UI;
 
 namespace Nez_Tutorial_1
 {
