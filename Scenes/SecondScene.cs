@@ -46,7 +46,7 @@ namespace Nez_Tutorial_1.Scenes
             Table.add(new CheckBox("Is this tutorial great?", Skin.createDefaultSkin()));
         }
 
-        public void PlayButton_onClicked(Button obj)
+        private void PlayButton_onClicked(Button obj)
         {
             var wipeTransition = new TextureWipeTransition(() => new FirstScene())
             {
