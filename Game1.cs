@@ -13,8 +13,6 @@ namespace Nez_Tutorial_1
         {
             base.Initialize();
 
-            var firstScene = Scene.createWithDefaultRenderer();
-
             scene = new Scenes.FirstScene();
         }
 
