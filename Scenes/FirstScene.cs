@@ -22,11 +22,11 @@ namespace Nez_Tutorial_1.Scenes
 
             Table.add(new Label("Main Menu").setFontScale(5));
 
-            Table.row().setPadTop(20).setAlign(Align.center);
+            Table.row().setPadTop(20);
 
             Table.add(new Label("This is our main menu for our game!").setFontScale(2));
 
-            Table.row().setPadTop(40).setAlign(Align.center);
+            Table.row().setPadTop(40);
 
             var playButton = Table.add(new TextButton("Next", Skin.createDefaultSkin())).setFillX().setMinHeight(30).getElement<TextButton>();
 
