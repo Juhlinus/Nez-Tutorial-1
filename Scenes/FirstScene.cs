@@ -33,7 +33,7 @@ namespace Nez_Tutorial_1.Scenes
             playButton.onClicked += PlayButton_onClicked;
         }
 
-        public void PlayButton_onClicked(Button obj)
+        private void PlayButton_onClicked(Button obj)
         {
             var wipeTransition = new TextureWipeTransition(() => new SecondScene())
             {
