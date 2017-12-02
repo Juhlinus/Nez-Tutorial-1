@@ -35,12 +35,10 @@ namespace Nez_Tutorial_1.Scenes
 
         private void PlayButton_onClicked(Button obj)
         {
-            var wipeTransition = new TextureWipeTransition(() => new SecondScene())
+            Core.startSceneTransition(new TextureWipeTransition(() => new FirstScene())
             {
                 transitionTexture = Core.content.Load<Texture2D>("nez/textures/textureWipeTransition/wink")
             };
-
-            Core.startSceneTransition(wipeTransition);
         }
     }
 }
