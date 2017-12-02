@@ -20,8 +20,6 @@ namespace Nez_Tutorial_1.Scenes
         {
             SetupScene();
 
-            Table.setFillParent(true).top().padLeft(10).padTop(50);
-
             Table.add(new Label("Main Menu").setFontScale(5));
 
             Table.row().setPadTop(20).setAlign(Align.center);
