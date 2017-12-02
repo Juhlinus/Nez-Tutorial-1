@@ -48,12 +48,10 @@ namespace Nez_Tutorial_1.Scenes
 
         private void PlayButton_onClicked(Button obj)
         {
-            var wipeTransition = new TextureWipeTransition(() => new FirstScene())
+            Core.startSceneTransition(new TextureWipeTransition(() => new FirstScene())
             {
                 transitionTexture = Core.content.Load<Texture2D>("nez/textures/textureWipeTransition/crissCross")
             };
-
-            Core.startSceneTransition(wipeTransition);
         }
     }
 }
