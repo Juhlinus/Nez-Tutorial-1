@@ -39,11 +39,11 @@ namespace Nez_Tutorial_1.Scenes
 
             Table.row().setPadTop(40);
 
-            Table.add(new TextField("A simple Textfield!", Skin.createDefaultSkin()));
+            var textField = Table.add(new TextField("A simple Textfield!", Skin.createDefaultSkin())).getElement<TextField>();
 
             Table.row().setPadTop(40);
 
-            Table.add(new CheckBox("Is this tutorial great?", Skin.createDefaultSkin()));
+            var checkBox = Table.add(new CheckBox("Is this tutorial great?", Skin.createDefaultSkin())).getElement<CheckBox>();
         }
 
         private void PlayButton_onClicked(Button obj)
