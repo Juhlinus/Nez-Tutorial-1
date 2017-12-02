@@ -17,7 +17,7 @@ namespace Nez_Tutorial_1.Scenes
 
         public SecondScene() {}
 
-        public override void initialize()
+        public void initialize()
         {
             SetupScene();
 
