@@ -38,7 +38,7 @@ namespace Nez_Tutorial_1.Scenes
             Core.startSceneTransition(new TextureWipeTransition(() => new FirstScene())
             {
                 transitionTexture = Core.content.Load<Texture2D>("nez/textures/textureWipeTransition/wink")
-            };
+            });
         }
     }
 }
